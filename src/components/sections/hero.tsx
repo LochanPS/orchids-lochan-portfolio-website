@@ -1,17 +1,14 @@
 import React from 'react';
-import FluidCursor from '@/components/ui/fluid-cursor';
-
 export default function HeroSection() {
   return (
     <>
       <section className="relative w-full min-h-screen bg-[#FFFFFF] text-[#000000] overflow-hidden flex flex-col justify-center px-[4vw]">
-        <FluidCursor color="#000000" />
         <div className="container mx-auto px-0 relative z-10 w-full max-w-full">
           <div className="flex flex-col md:flex-row justify-between items-start pt-[10vh] pb-[10vh]">
             
               <div className="flex-1">
-                <h1 
-                  className="hero-heading tracking-[-0.04em] font-black leading-[0.85] indent-[-0.04em] hero-text-blend"
+                  <h1 
+                    className="hero-heading tracking-[-0.04em] font-black leading-[0.85] indent-[-0.04em]"
                   style={{ fontSize: '11vw' }}
                 >
                   <div className="block">SOLVING PROBLEMS</div>
@@ -22,7 +19,7 @@ export default function HeroSection() {
 
               <div className="mt-12 md:mt-0 md:max-w-[300px] lg:max-w-[400px] self-start md:pt-[2vw]">
                 <p 
-                  className="text-[1rem] font-medium leading-[1.6] tracking-tight whitespace-pre-line hero-text-blend"
+                  className="text-[1rem] font-medium leading-[1.6] tracking-tight whitespace-pre-line"
                   style={{ fontFamily: 'Inter, sans-serif', color: '#000000' }}
                 >
                   A problem-solver who builds products with real impact—{"\n"}
@@ -48,14 +45,8 @@ export default function HeroSection() {
             font-weight: 900;
             text-transform: uppercase;
           }
-          
-          .hero-text-blend {
-            mix-blend-mode: difference;
-            position: relative;
-            z-index: 20;
-          }
-          
-          @media (max-width: 768px) {
+            
+            @media (max-width: 768px) {
             .hero-heading {
               font-size: 16vw !important;
               line-height: 0.9;
