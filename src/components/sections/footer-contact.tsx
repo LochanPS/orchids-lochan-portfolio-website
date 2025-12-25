@@ -68,9 +68,9 @@ const FooterContact = () => {
               <span className="ml-4 inline-block transition-transform duration-300 group-hover:translate-x-2">→</span>
             </button>
 
-            <div className="text-[0.65rem] text-[#808080] uppercase tracking-widest font-medium">
-              © {new Date().getFullYear()} LOCHAN. ALL RIGHTS RESERVED.
-            </div>
+              <div className="text-[0.65rem] text-[#808080] uppercase tracking-widest font-medium">
+                © {new Date().getFullYear()} LOCHAN P S ALL RIGHTS RESERVED.
+              </div>
           </div>
         </div>
       </div>

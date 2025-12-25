@@ -112,7 +112,7 @@ const projects: ProjectProps[] = [
     id: "themis",
     title: "THEMIS - Multimodal Banking Fraud Prevention",
     subtitle: "Banks lose $32B annually to fraud. THEMIS catches it before it happens—across every touchpoint.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.50.57-PM-1766656560527.jpeg",
+      image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/image-1766656855510.png",
     description: "THEMIS - AI Fraud Prevention",
     details: [
       "The Problem: Traditional fraud detection has 70% false positive rates and misses sophisticated multi-channel attacks.",
