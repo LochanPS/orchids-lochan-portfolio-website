@@ -16,9 +16,9 @@ const Navbar = () => {
       {/* Currently Exploring Banner */}
       <div className="fixed top-0 left-0 w-full z-[1100] bg-white text-black py-2 overflow-hidden border-b border-black">
         <div className="flex animate-[marquee_20s_linear_infinite] whitespace-nowrap px-4">
-          <span className="text-[10px] md:text-[12px] font-bold uppercase tracking-[0.2em]">
-            ⚡ Currently exploring seed funding for AutoCDA, UrbanVisionAI, and Fraud Shield &nbsp; • &nbsp; ⚡ Currently exploring seed funding for AutoCDA, UrbanVisionAI, and Fraud Shield &nbsp; • &nbsp; ⚡ Currently exploring seed funding for AutoCDA, UrbanVisionAI, and Fraud Shield &nbsp; • &nbsp;
-          </span>
+            <span className="text-[10px] md:text-[12px] font-bold uppercase tracking-[0.2em]">
+              ⚡ Currently exploring seed funding for AutoCDA &nbsp; • &nbsp; ⚡ Currently exploring seed funding for AutoCDA &nbsp; • &nbsp; ⚡ Currently exploring seed funding for AutoCDA &nbsp; • &nbsp;
+            </span>
         </div>
       </div>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
             className="relative block" 
             aria-label="Lochan Logo"
           >
-            <span className="text-white font-black text-2xl tracking-tighter">LOCHAN.</span>
+            <span className="text-white font-black text-2xl tracking-tighter uppercase">P S LOCHAN.</span>
           </a>
         </div>
 

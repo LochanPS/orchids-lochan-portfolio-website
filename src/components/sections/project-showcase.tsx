@@ -20,7 +20,7 @@ const projects: ProjectProps[] = [
     id: "autocda",
     title: "AutoCDA - AI Circuit Designer",
     subtitle: "Designing circuits takes hours. AutoCDA does it in 5 seconds using AI.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.21.11-PM-1766655554236.jpeg?width=8000&height=8000&resize=contain",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.21.11-PM-1766655554236.jpeg",
     description: "AutoCDA - AI Circuit Design Automation",
     details: [
       "Say 'Design a 1kHz low-pass filter' → Get a complete KiCad schematic with calculated component values, detailed explanations, and production-ready files.",
@@ -36,64 +36,10 @@ const projects: ProjectProps[] = [
     index: 1
   },
   {
-    id: "subscrybe",
-    title: "Subscrybe - Blockchain Payments",
-    subtitle: "Privacy-first subscription management on Cardano with automated smart contracts and transparent revenue tracking.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.32.16-PM-1766655579382.jpeg?width=8000&height=8000&resize=contain",
-    description: "Subscrybe - Web3 Payments Platform",
-    details: [
-      "Finalist - Cardano Blockchain Hackathon",
-      "The Problem: Subscription businesses lose 9% revenue to payment failures and lack transparent analytics.",
-      "The Solution: Cardano-based subscription vaults with automated payment routing, 2.5% PSP commission model, and real-time merchant analytics.",
-      "Market: $650B global subscription economy.",
-      "Status: Hackathon finalist, exploring pilot partnerships.",
-      "Tech: Cardano L1, Plutus Smart Contracts, Next.js 14"
-    ],
-    tags: ["BLOCKCHAIN", "FINTECH", "WEB3", "DEFI"],
-    link: "https://github.com/potatorangersfr-netizen/Subscrybe",
-    index: 2
-  },
-  {
-    id: "bb84",
-    title: "BB84 Quantum Network",
-    subtitle: "Quantum key distribution protocol that detects eavesdroppers through the laws of physics—not just encryption algorithms.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.41.55-PM-1766655590497.jpeg?width=8000&height=8000&resize=contain",
-    description: "BB84 Quantum Network Simulator",
-    details: [
-      "Winner - IISc × IBM Qiskit Fall Fest 2024",
-      "Built complete web implementation of BB84 protocol with 5 attack scenarios, statistical eavesdropping detection (QBER threshold: 11%), and real-time network visualizations.",
-      "The Value: As quantum computers threaten traditional encryption, quantum cryptography offers provable security.",
-      "Recognition: IBM Qiskit Advocate (ID: 116901)",
-      "Tech: IBM Qiskit, Flask REST API, React, NumPy"
-    ],
-    tags: ["QUANTUM COMPUTING", "SECURITY", "RESEARCH"],
-    link: "https://github.com/LochanPS/bb84_quantum_network",
-    index: 3
-  },
-  {
-    id: "argus",
-    title: "ARGUS - Smart City Platform",
-    subtitle: "AI-powered geospatial intelligence that tells city planners exactly where infrastructure is needed—backed by real data.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.49.50-PM-1766655608129.jpeg?width=8000&height=8000&resize=contain",
-    description: "ARGUS - Urban Planning Intelligence",
-    details: [
-      "The Problem: Cities waste billions building infrastructure in the wrong locations due to poor data analysis.",
-      "The Solution: Process millions of geospatial data points (hospitals, schools, parks, lakes) to identify underserved areas and recommend optimal locations for new facilities.",
-      "Bengaluru Demo: Analyzed 2.1M data points across 1,961 hospitals, 1,378 schools, 507 parks, 168 lakes— identified 194 critical infrastructure gaps with AI-powered recommendations.",
-      "Market: $85B smart city market, 500+ cities globally.",
-      "Status: Pilot-ready, seeking government partnerships.",
-      "Seeking: Pre-seed funding, smart city partnerships.",
-      "Tech: React, OpenStreetMap, Geospatial AI, Leaflet"
-    ],
-    tags: ["AI", "GOVTECH", "SMART CITIES", "SAAS", "PRE-SEED"],
-    link: "https://github.com/dwiraj6/UrbanvisionAI",
-    index: 4
-  },
-  {
     id: "mithril",
     title: "MITHRIL - WhatsApp Business Automation",
     subtitle: "Businesses lose customers to complicated ordering. MITHRIL makes it simple—no chatbots, just buttons that work.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.26.38-PM-1766655571411.jpeg?width=8000&height=8000&resize=contain",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.26.38-PM-1766655571411.jpeg",
     description: "MITHRIL - WhatsApp Commerce Platform",
     details: [
       "The Problem: Small businesses struggle with expensive, unreliable AI chatbots that confuse customers. They need simple automation that just works.",
@@ -106,13 +52,67 @@ const projects: ProjectProps[] = [
     ],
     tags: ["SAAS", "COMMERCE", "WHATSAPP", "PRE-SEED"],
     link: "#",
+    index: 2
+  },
+  {
+    id: "argus",
+    title: "ARGUS - Smart City Platform",
+    subtitle: "AI-powered geospatial intelligence that tells city planners exactly where infrastructure is needed—backed by real data.",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.49.50-PM-1766655608129.jpeg",
+    description: "ARGUS - Urban Planning Intelligence",
+    details: [
+      "The Problem: Cities waste billions building infrastructure in the wrong locations due to poor data analysis.",
+      "The Solution: Process millions of geospatial data points (hospitals, schools, parks, lakes) to identify underserved areas and recommend optimal locations for new facilities.",
+      "Bengaluru Demo: Analyzed 2.1M data points across 1,961 hospitals, 1,378 schools, 507 parks, 168 lakes— identified 194 critical infrastructure gaps with AI-powered recommendations.",
+      "Market: $85B smart city market, 500+ cities globally.",
+      "Status: Pilot-ready, seeking government partnerships.",
+      "Seeking: Pre-seed funding, smart city partnerships.",
+      "Tech: React, OpenStreetMap, Geospatial AI, Leaflet"
+    ],
+    tags: ["AI", "GOVTECH", "SMART CITIES", "SAAS", "PRE-SEED"],
+    link: "https://github.com/dwiraj6/UrbanvisionAI",
+    index: 3
+  },
+  {
+    id: "subscrybe",
+    title: "Subscrybe - Blockchain Payments",
+    subtitle: "Privacy-first subscription management on Cardano with automated smart contracts and transparent revenue tracking.",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.32.16-PM-1766655579382.jpeg",
+    description: "Subscrybe - Web3 Payments Platform",
+    details: [
+      "Finalist - Cardano Blockchain Hackathon",
+      "The Problem: Subscription businesses lose 9% revenue to payment failures and lack transparent analytics.",
+      "The Solution: Cardano-based subscription vaults with automated payment routing, 2.5% PSP commission model, and real-time merchant analytics.",
+      "Market: $650B global subscription economy.",
+      "Status: Hackathon finalist, exploring pilot partnerships.",
+      "Tech: Cardano L1, Plutus Smart Contracts, Next.js 14"
+    ],
+    tags: ["BLOCKCHAIN", "FINTECH", "WEB3", "DEFI"],
+    link: "https://github.com/potatorangersfr-netizen/Subscrybe",
+    index: 4
+  },
+  {
+    id: "bb84",
+    title: "BB84 Quantum Network",
+    subtitle: "Quantum key distribution protocol that detects eavesdroppers through the laws of physics—not just encryption algorithms.",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.41.55-PM-1766655590497.jpeg",
+    description: "BB84 Quantum Network Simulator",
+    details: [
+      "Winner - IISc × IBM Qiskit Fall Fest 2024",
+      "Built complete web implementation of BB84 protocol with 5 attack scenarios, statistical eavesdropping detection (QBER threshold: 11%), and real-time network visualizations.",
+      "The Value: As quantum computers threaten traditional encryption, quantum cryptography offers provable security.",
+      "Recognition: IBM Qiskit Advocate (ID: 116901)",
+      "Tech: IBM Qiskit, Flask REST API, React, NumPy"
+    ],
+    tags: ["QUANTUM COMPUTING", "SECURITY", "RESEARCH"],
+    link: "https://github.com/LochanPS/bb84_quantum_network",
     index: 5
   },
   {
     id: "themis",
     title: "THEMIS - Multimodal Banking Fraud Prevention",
     subtitle: "Banks lose $32B annually to fraud. THEMIS catches it before it happens—across every touchpoint.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.53.30-PM-1766655624872.jpeg?width=8000&height=8000&resize=contain",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.50.57-PM-1766656560527.jpeg",
     description: "THEMIS - AI Fraud Prevention",
     details: [
       "The Problem: Traditional fraud detection has 70% false positive rates and misses sophisticated multi-channel attacks.",
@@ -131,7 +131,7 @@ const projects: ProjectProps[] = [
     id: "limbo",
     title: "LIMBO - Emotional Companion",
     subtitle: "AI companion with circadian rhythms that processes memories during sleep cycles—exploring human-AI emotional interfaces.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.53.30-PM-1766655988401.jpeg?width=8000&height=8000&resize=contain",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.53.30-PM-1766655988401.jpeg",
     description: "LIMBO - Emotional AI Research",
     details: [
       "Built AI system with 4 states: awake → drowsy → dreaming → waking. Processes conversations during sleep cycles, evolves personality based on interactions, and visualizes memory networks in 3D.",
@@ -147,7 +147,7 @@ const projects: ProjectProps[] = [
     id: "moria",
     title: "MORIA - Quantum ML for Finance",
     subtitle: "Exploring quantum algorithms for portfolio optimization—where quantum advantage might actually matter.",
-    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.52.35-PM-1766655617250.jpeg?width=8000&height=8000&resize=contain",
+    image: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/WhatsApp-Image-2025-12-25-at-2.52.35-PM-1766655617250.jpeg",
     description: "MORIA - Quantum ML for Finance",
     details: [
       "Active research project testing quantum algorithms (QAOA, VQE) against classical baselines for portfolio optimization and financial feature extraction.",
@@ -164,7 +164,7 @@ const projects: ProjectProps[] = [
 const ProjectShowcase: React.FC = () => {
   return (
     <section className="bg-black py-20">
-      {projects.map((project, idx) => (
+      {projects.map((project) => (
         <div 
           key={project.id} 
           className="project-section min-h-[80vh] flex flex-col justify-center border-t border-[#333333] py-24 px-[4vw]"
@@ -172,17 +172,15 @@ const ProjectShowcase: React.FC = () => {
           <div className="project-split grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
             {/* Left Side - Image */}
             <div className="lg:col-span-7">
-              <div className="project-image relative aspect-video overflow-hidden group">
-                <Image 
-                  src={project.image} 
-                  alt={project.title}
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute top-8 left-8">
-                  <span className="text-[12vw] font-black leading-none text-white/10 select-none">
-                    0{project.index}
-                  </span>
+              <div className="project-image relative aspect-video overflow-hidden bg-black flex items-center justify-center">
+                <div className="relative w-full h-full">
+                  <Image 
+                    src={project.image} 
+                    alt={project.title}
+                    fill
+                    className="object-contain"
+                    priority={project.index <= 2}
+                  />
                 </div>
               </div>
             </div>
